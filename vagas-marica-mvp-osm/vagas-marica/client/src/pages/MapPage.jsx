@@ -16,6 +16,7 @@ import { useJobSearch } from '../hooks/useJobSearch.js';
 import { useMediaQuery } from '../hooks/useMediaQuery.js';
 import { usePageTitle } from '../hooks/usePageTitle.js';
 import { activeFilterCount, DEFAULT_FILTERS } from '../utils/search.js';
+import { fromPlace } from '../utils/format.js';
 
 function Legend({ referenceName }) {
   return (
@@ -83,7 +84,7 @@ export default function MapPage() {
     <MapArea
       cfg={s.cfg} reference={s.reference} radiusKm={s.filters.radiusKm} jobs={s.visible.jobs}
       selectedId={s.selectedId} onSelectGroup={s.selectGroup}
-      occludeRight={isDesktop && s.selectedJob ? 452 : 0} offlineAction={offlineAction}
+      occludeRight={isDesktop && s.selectedJob ? 452 : 0} offlineAction={offlineAction} compactControls={!isDesktop}
     />
   );
 
@@ -95,7 +96,7 @@ export default function MapPage() {
             <div className="flex items-start justify-between gap-3">
               <div>
                 <h1 className="text-xl font-extrabold leading-tight">Explorar no mapa</h1>
-                <p className="text-xs text-muted">Até {s.filters.radiusKm} km de {referenceName || 'Centro'}</p>
+                <p className="text-xs text-muted">Até {s.filters.radiusKm} km {fromPlace(referenceName)}</p>
               </div>
               <Link to={listHref} className="btn btn-sm btn-outline shrink-0"><List size={15} aria-hidden="true" /> Ver em lista</Link>
             </div>

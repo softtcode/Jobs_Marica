@@ -21,7 +21,8 @@ export function useJobSearch() {
   const { resume, hasResume } = useResume();
   const [params, setParams] = useSearchParams();
   const filters = useMemo(() => parseFilters(params), [params]);
-  const tab = parseTab(params);
+  // Aba escolhida pela pessoa (na URL). Sem escolha explícita, a aba é definida mais abaixo.
+  const explicitTab = params.has('aba') ? parseTab(params) : null;
   const selectedId = params.get('vaga');
 
   const [draftQuery, setDraftQuery] = useState(filters.q);
@@ -29,7 +30,6 @@ export function useJobSearch() {
 
   const [focusGroup, setFocusGroup] = useState(null); // ids de vagas no mesmo ponto do mapa
   const filterKey = filtersToParams(filters).toString();
-  useEffect(() => setFocusGroup(null), [filterKey, tab]);
 
   const jobsState = useJobs({
     q: filters.q, radiusKm: filters.radiusKm, type: filters.type, refId: filters.ref, enabled: Boolean(cfg.home),
@@ -95,6 +95,10 @@ export function useJobSearch() {
 
   const tabsActive = Boolean(matching);
   const counts = matching ? { forYou: matching.forYou.length, others: matching.others.length } : null;
+  // Sem aba escolhida, abre "Para Você" — a não ser que ela esteja vazia e "Outras Vagas" não
+  // (ex.: "Ver vagas desta empresa"), para a pessoa não cair numa lista vazia.
+  const tab = explicitTab ?? (counts && counts.forYou === 0 && counts.others > 0 ? 'others' : 'forYou');
+  useEffect(() => setFocusGroup(null), [filterKey, tab]);
   const hasQuery = Boolean(filters.q);
   const sort = effectiveSort(filters.sort, { tab, tabsActive, hasQuery, hasResume });
   const sortOptions = availableSorts({ hasQuery, hasResume });

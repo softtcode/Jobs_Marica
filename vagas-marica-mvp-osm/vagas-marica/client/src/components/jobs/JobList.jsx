@@ -6,6 +6,7 @@ import {
 import JobCard from './JobCard.jsx';
 import Notice, { EmptyState, ListSkeleton } from '../ui/Notice.jsx';
 import { nextRadius } from '../../utils/search.js';
+import { fromPlace } from '../../utils/format.js';
 import { MATCH_CONFIG } from '../../services/matchingService.js';
 
 const timeFmt = (iso) => new Date(iso).toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
@@ -145,7 +146,7 @@ export default function JobList({
           </h2>
           {!loading && !empty && (
             <p className="text-xs text-muted">
-              Até {filters.radiusKm} km{referenceName ? ` de ${referenceName}` : ''}
+              Até {filters.radiusKm} km{referenceName ? ` ${fromPlace(referenceName)}` : ''}
               {data.fetchedAt && <> · <button type="button" onClick={refresh} className="underline-offset-2 hover:underline" title="Atualizar resultados">atualizado às {timeFmt(data.fetchedAt)}</button></>}
             </p>
           )}

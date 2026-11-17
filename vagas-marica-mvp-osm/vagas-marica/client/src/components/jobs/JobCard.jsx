@@ -4,7 +4,7 @@ import {
 } from 'lucide-react';
 import Badge from '../ui/Badge.jsx';
 import {
-  companyInitial, formatDistance, formatRelativeDate, formatSalary, MODE_LABEL, TYPE_LABEL,
+  companyInitial, formatDistance, fromPlace, formatRelativeDate, formatSalary, MODE_LABEL, TYPE_LABEL,
 } from '../../utils/format.js';
 import { TIER_LABEL } from '../../../../shared/jobSearch.js';
 
@@ -49,7 +49,7 @@ function JobCard({ job, selected = false, onSelect, compact = false, match = nul
   const unmet = match?.unmetRequired.length || 0;
   const tier = showTier && job.matchTier >= 2 ? TIER_LABEL[job.matchTier] : null;
   const distanceText = distance
-    ? (distance === 'no bairro' ? `no bairro de referência` : `${distance}${referenceName ? ` de ${referenceName}` : ''}`)
+    ? (distance === 'no bairro' ? `no bairro de referência` : `${distance}${referenceName ? ` ${fromPlace(referenceName)}` : ''}`)
     : job.lat == null ? (job.mode === 'remote' ? 'remota' : 'sem localização no mapa') : null;
 
   return (
@@ -107,7 +107,7 @@ function JobCard({ job, selected = false, onSelect, compact = false, match = nul
         </p>
       )}
 
-      <div className="mt-3 flex items-center gap-2 border-t border-line/70 pt-2.5 text-[11px] text-muted">
+      <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-1 whitespace-nowrap border-t border-line/70 pt-2.5 text-[11px] text-muted">
         {posted && <span className="inline-flex items-center gap-1"><Clock size={11} aria-hidden="true" /> {posted}</span>}
         {job.isDemo
           ? <span className="inline-flex items-center gap-1"><FlaskConical size={11} aria-hidden="true" /> Vaga demonstrativa</span>

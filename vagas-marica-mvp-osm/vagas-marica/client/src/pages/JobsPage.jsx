@@ -14,6 +14,7 @@ import { useJobSearch } from '../hooks/useJobSearch.js';
 import { useMediaQuery } from '../hooks/useMediaQuery.js';
 import { usePageTitle } from '../hooks/usePageTitle.js';
 import { activeFilterCount, DEFAULT_FILTERS } from '../utils/search.js';
+import { fromPlace } from '../utils/format.js';
 
 export function FiltersButton({ count, onClick, className = '', label = 'Filtros' }) {
   return (
@@ -93,7 +94,7 @@ export default function JobsPage() {
           <div className="flex flex-col gap-3 lg:flex-row lg:items-center">
             <div className="min-w-0 lg:w-52 lg:shrink-0">
               <h1 className="text-xl font-extrabold leading-tight">Encontrar vagas</h1>
-              <p className="text-xs text-muted">Maricá e região{referenceName ? ` · perto de ${referenceName}` : ''}</p>
+              <p className="text-xs text-muted">Maricá e região{referenceName ? ` · perto ${fromPlace(referenceName)}` : ''}</p>
             </div>
             <SearchBar
               id="jobs-search" value={s.draftQuery} onChange={s.setDraftQuery} onSubmit={s.submitSearch}

@@ -9,7 +9,7 @@ import Drawer from '../ui/Drawer.jsx';
 import { CompanyAvatar, MatchScore } from './JobCard.jsx';
 import { CRITERIA_LABELS, MATCH_CONFIG } from '../../services/matchingService.js';
 import {
-  NOT_INFORMED, formatDate, formatDistance, formatSalary, MODE_LABEL, PRECISION_LABEL, TYPE_LABEL,
+  NOT_INFORMED, formatDate, formatDistance, fromPlace, formatSalary, MODE_LABEL, PRECISION_LABEL, TYPE_LABEL,
 } from '../../utils/format.js';
 
 function Fact({ icon: Icon, label, children }) {
@@ -226,7 +226,7 @@ function DetailsContent({ job, match, onClose, mapHref, onShowOnMap, closeRef, r
               <p className="mt-1.5 flex items-start gap-2 text-slate-600">
                 <Navigation size={16} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" />
                 <span>
-                  {distance === 'no bairro' ? `No bairro de referência (${referenceName || 'Centro'})` : `${distance} de ${referenceName || 'Centro'}`}
+                  {distance === 'no bairro' ? `No bairro de referência (${referenceName || 'Centro'})` : `${distance} ${fromPlace(referenceName)}`}
                   {approx && <span className="block text-xs text-muted">em linha reta, a partir de um ponto aproximado</span>}
                 </span>
               </p>

@@ -82,6 +82,10 @@
 .leaflet-control-attribution a { color: #1D4ED8; }
 .leaflet-bar { border: none !important; box-shadow: 0 2px 10px rgba(15,23,42,.15) !important; border-radius: 12px !important; overflow: hidden; }
 .leaflet-bar a { color: #0F172A !important; }
+/* Celular: zoom acima do botão "Ver lista" e da pré-visualização da vaga */
+.map-compact .leaflet-bottom.leaflet-right .leaflet-control-zoom { margin-bottom: 96px; margin-right: 12px; }
+.map-compact .leaflet-bar a { width: 40px; height: 40px; line-height: 40px; }
+.map-raised .leaflet-top.leaflet-right .leaflet-control-zoom { margin-top: 76px; margin-right: 12px; }
 .pin {
   display: grid; place-items: center; position: relative;
   width: 34px; height: 34px; border-radius: 9999px;

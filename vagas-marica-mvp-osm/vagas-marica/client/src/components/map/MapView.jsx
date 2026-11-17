@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import L from 'leaflet';
-import { AttributionControl, Circle, MapContainer, Marker, TileLayer, useMap } from 'react-leaflet';
+import { AttributionControl, Circle, MapContainer, Marker, TileLayer, useMap, ZoomControl } from 'react-leaflet';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import 'leaflet/dist/leaflet.css';
 import { groupByCoordinate, groupIsExact } from '../../utils/geo.js';
@@ -66,20 +66,22 @@ function InvalidateSizeOnResize() {
 }
 
 /** Centraliza na vaga selecionada (pelo cartão da lista ou pelo marcador), aproximando se preciso. */
-function PanToSelected({ target, occludeRight }) {
+function PanToSelected({ target, occludeRight, occludeBottom }) {
   const map = useMap();
   useEffect(() => {
     if (!target) return;
     const zoom = Math.max(map.getZoom(), 13);
-    // Se um painel cobre a lateral direita, centraliza o marcador na área que continua visível.
-    const width = map.getSize().x;
-    const shift = occludeRight && width - occludeRight > 240 ? occludeRight / 2 : 0;
-    const center = shift
-      ? map.unproject(map.project([target.lat, target.lng], zoom).add([shift, 0]), zoom)
+    // Se um painel cobre a lateral direita (desktop) ou a parte de baixo (cartão no celular),
+    // centraliza o marcador na área que continua visível.
+    const { x: width, y: height } = map.getSize();
+    const shiftX = occludeRight && width - occludeRight > 240 ? occludeRight / 2 : 0;
+    const shiftY = occludeBottom && height - occludeBottom > 120 ? occludeBottom / 2 : 0;
+    const center = shiftX || shiftY
+      ? map.unproject(map.project([target.lat, target.lng], zoom).add([shiftX, shiftY]), zoom)
       : L.latLng(target.lat, target.lng);
     if (reducedMotion()) map.setView(center, zoom);
     else map.flyTo(center, zoom, { duration: 0.6 });
-  }, [map, target, occludeRight]);
+  }, [map, target, occludeRight, occludeBottom]);
   return null;
 }
 
@@ -131,7 +133,7 @@ function markerLabel(group) {
  * vagas na mesma coordenada são agrupadas (sem deslocar pontos artificialmente).
  * O marcador selecionado fica fora do agrupamento para estar sempre visível.
  */
-export default function MapView({ reference, radiusKm, jobs, selectedId, onSelectGroup, occludeRight = 0, offlineAction }) {
+export default function MapView({ reference, radiusKm, jobs, selectedId, onSelectGroup, occludeRight = 0, offlineAction, compactControls = false }) {
   const [tilesFailed, setTilesFailed] = useState(false);
   // Centro do mapa e do círculo de raio = bairro de referência escolhido.
   const center = useMemo(() => [reference.lat, reference.lng], [reference.lat, reference.lng]);
@@ -151,21 +153,27 @@ export default function MapView({ reference, radiusKm, jobs, selectedId, onSelec
   );
 
   return (
-    <div className="relative isolate h-full w-full">
+    <div className={`relative isolate h-full w-full ${compactControls ? 'map-compact' : ''} ${compactControls && selectedGroup ? 'map-raised' : ''}`}>
       <MapContainer
         center={center}
         zoom={12}
-        zoomControl
+        zoomControl={false}
         attributionControl={false}
         scrollWheelZoom
         className="h-full w-full"
         aria-label="Mapa de vagas"
       >
+        {/* No celular a busca flutua no topo: o zoom vai para baixo, à direita, acima do botão da lista. */}
+        {/* Com uma vaga selecionada, o cartão ocupa a parte de baixo: o zoom sobe para o canto superior direito. */}
+        <ZoomControl
+          position={compactControls ? (selectedGroup ? 'topright' : 'bottomright') : 'topleft'}
+          zoomInTitle="Aproximar" zoomOutTitle="Afastar"
+        />
         <AttributionControl position="bottomleft" prefix={false} />
         <TileStatus onChange={setTilesFailed} />
         <InvalidateSizeOnResize />
         <FitToRadius center={center} radiusKm={radiusKm} />
-        <PanToSelected target={panTarget} occludeRight={occludeRight} />
+        <PanToSelected target={panTarget} occludeRight={occludeRight} occludeBottom={compactControls ? 280 : 0} />
 
         <Circle
           center={center}

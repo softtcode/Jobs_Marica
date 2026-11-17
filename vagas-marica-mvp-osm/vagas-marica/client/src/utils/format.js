@@ -11,6 +11,9 @@ export function formatSalary(salary) {
 
 export const formatMoney = (n) => brl.format(n);
 
+/** "do Centro" / "de Itaipuaçu": preposição correta para o bairro de referência. */
+export const fromPlace = (name) => (!name || name === 'Centro' ? 'do Centro' : `de ${name}`);
+
 export function formatDistance(km, approx) {
   if (km == null) return null;
   if (km < 0.05) return 'no bairro';

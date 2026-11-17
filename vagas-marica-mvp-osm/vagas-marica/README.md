@@ -72,9 +72,74 @@ palavras irrelevantes, expressões compostas, sinônimos, deduplicação).
 - Cada vaga mostra os motivos ("Conhecimento em Excel", "Interesse em Administração"…) e o que não foi
   possível verificar. É uma **estimativa por regras**, não probabilidade de contratação.
 - Nenhum atributo sensível é usado (o perfil nem os armazena).
-- **Abas em `/vagas`:** os filtros são aplicados primeiro; depois, score ≥ `MATCH_CONFIG.threshold` (60) vai
-  para **Para Você** (ordenada pela pontuação) e o restante para **Outras Vagas**. As abas são mutuamente
-  exclusivas. Sem currículo, todas as vagas aparecem com um convite para criar/importar o currículo.
+- **Abas em `/vagas` e `/mapa`:** os filtros são aplicados primeiro; depois, score ≥ `MATCH_CONFIG.threshold`
+  (60) vai para **Para Você** e o restante para **Outras Vagas**. As abas são mutuamente exclusivas e a lista
+  e o mapa mostram sempre o mesmo subconjunto (mesma função `computeVisible` em `client/src/utils/search.js`).
+  Sem aba na URL, abre "Para Você" — ou "Outras Vagas", se "Para Você" estiver vazia. Sem currículo, todas as
+  vagas aparecem com um convite para o Perfil Rápido.
+- **Primeiro emprego:** "Ainda não tenho experiência profissional" é uma resposta válida: vagas que não exigem
+  experiência recebem o critério completo; vagas que exigem continuam mostrando o requisito como não atendido.
+
+### Perfil Rápido e Currículo Completo (`/curriculo`)
+- Duas formas de preencher **o mesmo perfil** (mesma estrutura e mesmo `localStorage`): o **Perfil Rápido**
+  (área, cargo, escolaridade, competências, bairro, contratação e modalidade) e o **Currículo Completo**.
+- "Encontrar vagas para mim" salva mesclando com o que já existe (experiências, cursos e idiomas não são
+  apagados — `mergeQuickProfile`) e abre `/vagas?aba=para-voce` já com o bairro informado.
+- A importação de PDF/DOCX só altera o rascunho; há "Descartar" para voltar ao que estava salvo.
+- O antigo percentual foi trocado por 5 etapas respondidas (`client/src/utils/resumeProgress.js`) e pelo
+  indicador "Perfil pronto para recomendações". Não ter experiência não reduz o preenchimento.
+
+---
+
+## 0.1 Busca, local de referência, filtros e ordenação
+
+### Busca inteligente (`shared/jobSearch.js`)
+Módulo **compartilhado** entre servidor e navegador, junto com o dicionário (`shared/professionalTerms.js`) e a
+normalização (`shared/textNormalization.js`) — `client/src/data/skillsDictionary.js` e
+`client/src/utils/textNormalization.js` apenas reexportam esses arquivos, para não haver dois dicionários.
+
+- Trata acentos, maiúsculas, singular/plural e masculino/feminino (radical simples), abreviações
+  (`aux adm`, `tec`, `dev`…), início de palavra (`recep`) e erros de digitação (1 letra em palavras de 6+
+  letras; 2 em palavras de 11+).
+- Níveis de relevância (`matchTier`, campo novo em cada vaga de `/api/jobs`):
+  1. **título** contém todos os termos; 2. **cargo equivalente** (mesmo grupo — ex.: auxiliar ⇄ assistente
+  administrativo); 3. **cargo relacionado** (relações explícitas em `ROLE_RELATIONS`, ou estágio/aprendiz/trainee
+  do cargo); 4. **competências, requisitos ou descrição**.
+- Cargos relacionados aparecem depois, na seção "Oportunidades relacionadas". Se não houver título exato, a
+  página avisa "Não encontramos vagas com esse título exato".
+- Para evitar resultados genéricos: só relações explícitas (não "mesma área"); competências típicas do cargo
+  só contam contra as competências técnicas/obrigatórias da vaga; expressões que perdem palavras de conteúdo
+  ao remover termos genéricos são descartadas.
+- Vagas de fontes externas (Adzuna/Greenhouse) já vêm filtradas pela própria fonte: recebem um nível de
+  relevância, mas não são descartadas.
+
+### Local de referência (bairro)
+- `GET /api/jobs?...&ref=<id>`: o `id` precisa estar na lista permitida (`server/src/data/neighborhoods.js`,
+  única fonte de coordenadas); valores inválidos → **400**. Coordenadas livres não são aceitas. Sem `ref`,
+  usa-se **Centro (Casa do Trabalhador)**, o comportamento original.
+- `GET /api/config` passou a incluir `references` (lista de bairros) e `defaultReference`. A resposta de
+  `/api/jobs` traz `center` com `id` e `name` do bairro usado.
+- A distância é calculada no servidor (Haversine) a partir do bairro escolhido; o mapa e o círculo de raio
+  são centralizados nele. Vagas sem coordenadas não recebem distância e ficam na seção "Sem localização no mapa".
+- O cache do navegador inclui o bairro na chave; o cache do servidor guarda só os dados brutos das fontes
+  (antes do cálculo de distância), então nunca reaproveita distâncias de outro bairro.
+- **Limitação:** a Adzuna é consultada por cidade (Maricá; Niterói e Rio a partir de 25/50 km) e depois
+  filtrada pela distância calculada com as coordenadas aproximadas que ela mesma informa — não há busca
+  por bairro na API.
+
+### Filtros e ordenação
+- **Filtros rápidos** ao lado da busca (bairro, distância, contratação, modalidade, área); "Mais filtros"
+  abre o painel completo. Filtros ativos aparecem como chips removíveis; "Limpar tudo" mantém a palavra buscada.
+- **Salário inicial mínimo:** compara com o **limite inferior** da faixa (R$ 1.800–3.000 conta como R$ 1.800);
+  salário fixo vale o próprio valor; vagas sem salário ou só com teto ("até R$ X") são tratadas como "salário
+  inicial não informado" e só aparecem com a opção "Incluir vagas sem salário inicial informado". Nenhum
+  salário é inventado.
+- **Ordenar por:** relevância (só com busca), maior compatibilidade (só com currículo), menor distância
+  (vagas sem distância por último), mais recentes (data de publicação; nas vagas demo, a data é fictícia) e
+  maior salário inicial (limite inferior; empate pelo teto; sem salário por último). Padrão: "Para Você" →
+  compatibilidade; com busca → relevância; senão → distância.
+- **Empresa:** `empresa=<id>` filtra pelo identificador da empresa (nunca por semelhança de nome); usado pelo
+  botão "Ver vagas desta empresa".
 
 ---
 
@@ -124,6 +189,11 @@ notícias, em texto. Não encontrei uma API pública para elas, então não est�
 
 ```
 vagas-marica/
+├── shared/                       # usado pelo servidor E pelo navegador
+│   ├── professionalTerms.js      # áreas, cargos, sinônimos, relações, competências, abreviações
+│   ├── textNormalization.js      # normalização, palavras irrelevantes, extração de termos
+│   └── jobSearch.js              # busca tolerante e níveis de relevância
+├── docs/roteiro-usabilidade.md   # roteiro e fichas para testes com participantes
 ├── server/
 │   ├── .env.example
 │   ├── src/
@@ -142,50 +212,56 @@ vagas-marica/
 │   │   │   └── jobsService.js    # agrega, remove duplicatas, filtra por distância
 │   │   └── utils/ (geo.js Haversine, cache.js TTL, fileCache.js, rateLimitedQueue.js, text.js)
 │   ├── scripts/generate-demo-reviews.mjs
-│   └── test/ (smoke, geocoding, demo)
+│   └── test/ (smoke, geocoding, demo, reference)
 └── client/
     ├── .env.example
     ├── public/exemplos/              # currículos fictícios (PDF/DOCX) para demonstrar a importação
     ├── scripts/make-sample-resumes.mjs
-    ├── test/ (matching, resume)      # node --test
+    ├── test/ (matching, resume, search, filters, profile)   # node --test
     └── src/
         ├── App.jsx                   # rotas (React Router, páginas carregadas sob demanda)
         ├── context/ (ConfigContext, ResumeContext — currículo no localStorage)
         ├── pages/ (LandingPage, JobsPage, MapPage, CompaniesPage, CompanyDetailsPage, ResumePage, AboutPage, NotFoundPage)
         ├── components/
-        │   ├── layout/    (AppLayout, Navbar, BottomNav, Footer, Logo)
-        │   ├── jobs/      (SearchBar, FilterPanel, RadiusSlider, ReferencePoint, JobCard, JobList, JobDetails, MatchTabs)
+        │   ├── layout/    (AppLayout, Navbar, BottomNav, Footer, Logo, navItems, useNavTarget)
+        │   ├── jobs/      (SearchBar, QuickFilters/ActiveFilters, FilterPanel, ReferenceSelect, RadiusSlider,
+        │   │               JobCard, JobList/SortSelect, JobDetails, MatchTabs)
         │   ├── companies/ (CompanyCard, CompanyBadges, StarRating)
-        │   ├── resume/    (FormControls, ImportPanel)
+        │   ├── resume/    (FormControls, ImportPanel, QuickProfile)
         │   ├── map/       (MapView, MapArea)
         │   └── ui/        (Badge, Notice, Drawer/modal, DemoNotice)
-        ├── data/skillsDictionary.js
+        ├── data/skillsDictionary.js  # reexporta /shared
         ├── hooks/ (useJobs, useJobSearch, useAsync, useMediaQuery, usePageTitle)
         ├── services/ (api, matchingService, resumeParser, resumeExtract)
-        └── utils/ (geo, format, search, textNormalization)
+        └── utils/ (geo, format, search, resumeProgress, textNormalization → /shared)
 ```
 
 ### Páginas
 
 | Rota      | Conteúdo |
 |-----------|----------|
-| `/`              | Apresentação, busca, categorias, vagas recentes (do backend), recursos, como funciona |
-| `/vagas`         | Busca, filtros, abas Para Você / Outras Vagas, lista, mapa e detalhes integrados |
-| `/mapa`          | Mapa amplo com painel de resultados; no celular, mapa em tela cheia com lista em gaveta |
+| `/`              | Dois caminhos (encontrar vagas agora / vagas para meu perfil), como funciona, vagas perto do seu bairro, categorias, recentes |
+| `/vagas`         | Busca, filtros rápidos, abas Para Você / Outras Vagas, ordenação, lista, mapa e detalhes |
+| `/mapa`          | Mesma busca de `/vagas` em mapa amplo; no celular, mapa em tela cheia com lista em gaveta |
 | `/empresas`      | Avaliações de empresas (simuladas): busca, setor, ordenação por nota/popularidade |
-| `/empresas/:id`  | Detalhes: notas por critério, distribuição, posições, vagas demonstrativas |
-| `/curriculo`     | Meu Currículo: cadastro manual, importação PDF/DOCX, privacidade e exclusão |
+| `/empresas/:id`  | Detalhes: notas por critério, distribuição, posições e "Oportunidades desta empresa" |
+| `/curriculo`     | Perfil Rápido e Currículo Completo (`?modo=rapido|completo`), importação PDF/DOCX, privacidade e exclusão |
 | `/sobre`         | Propósito, como usar, origem dos dados, demonstração, recomendações e privacidade |
 
 `/vagas` e `/mapa` compartilham a mesma busca pela URL (o link pode ser copiado e compartilhado):
 
 ```
-/vagas?q=vendedor&raio=10&tipo=emprego&modalidade=presencial&contratacao=clt&area=vendas&salario=2000&semSalario=0&aba=para-voce&vaga=<id>
+/vagas?q=vendedor&bairro=itaipuacu&raio=10&tipo=emprego&modalidade=presencial&contratacao=clt&area=vendas
+      &empresa=<id>&salario=2000&semSalario=0&ordem=recentes&aba=para-voce&vaga=<id>
 ```
 
-`raio` aceita os mesmos valores do backend (1, 5, 10, 15, 25, 50, 100; padrão 25 km, que cobre Maricá);
-valores padrão são omitidos. No celular, a barra inferior tem Início, Vagas, Mapa, Empresas e Currículo; o
-menu do topo lista todas as páginas (incluindo Sobre).
+`raio` aceita os mesmos valores do backend (1, 5, 10, 15, 25, 50, 100; padrão 25 km). Valores padrão são
+omitidos e valores inválidos voltam ao padrão. Ao alternar entre "Encontrar vagas" e "Explorar no mapa" pelo
+menu, a busca vai junto.
+
+**Navegação:** no desktop, os destinos principais (Encontrar vagas, Explorar no mapa, Meu currículo) têm
+destaque; Avaliações de empresas e Sobre o projeto ficam menores. No celular, a barra inferior tem 4 itens
+(Início, Vagas, Mapa, Currículo) e o menu do topo lista todas as páginas.
 
 ---
 
@@ -225,8 +301,8 @@ Sem nenhuma credencial o protótipo já funciona no modo demonstração. Para re
 1. O servidor consulta Adzuna (áreas: Maricá; mais Niterói a partir de 25 km; mais Rio de Janeiro a partir
    de 50 km) e Greenhouse, em paralelo. Cada fonte falha de forma independente.
 2. Os resultados são **normalizados** num formato único e **deduplicados** (URL e título + empresa + local).
-3. A distância é calculada com **Haversine**, em linha reta, a partir da Casa do Trabalhador. O filtro final
-   usa coordenadas, não nomes de cidades.
+3. A distância é calculada com **Haversine**, em linha reta, a partir do **bairro de referência** escolhido
+   (padrão: Casa do Trabalhador, no Centro). O filtro final usa coordenadas, não nomes de cidades.
 4. Cada vaga recebe uma precisão:
    - `exact`: só se o OpenStreetMap encontrar o número do imóvel (marcador sólido);
    - `approximate`: coordenadas da fonte ou geocodificação de cidade/bairro (marcador **tracejado**, rótulo
@@ -244,7 +320,12 @@ Sem nenhuma credencial o protótipo já funciona no modo demonstração. Para re
 - Fonte indisponível, credencial recusada ou limite excedido: aviso por fonte, e as demais continuam.
 - Servidor fora do ar: mensagem amigável; o último resultado carregado é mantido.
 - Sem vagas no raio: sugestão de aumentar a distância ou mudar a busca.
-- Tiles do mapa não carregam: aviso sobre o mapa-base, e a lista continua funcionando.
+- Tiles do mapa não carregam (ou o navegador está sem internet): o mapa é coberto pela mensagem "Não foi
+  possível carregar o mapa. As vagas continuam disponíveis na lista." e volta sozinho quando a conexão
+  retorna. A busca, os filtros, o bairro e a distância continuam funcionando, pois as vagas demo são locais.
+  Os tiles **não** são baixados para uso offline: o servidor público do OpenStreetMap não permite download
+  em massa. Para uma apresentação sem internet garantida, rode backend e frontend localmente
+  (`npm run dev`): só o mapa-base e as fontes do Google Fonts dependem de rede (o texto usa a fonte do sistema).
 - Nominatim com limite de uso (429): geocodificação pausada e nova tentativa depois; nada é inventado.
 - Casa do Trabalhador não localizada: o servidor responde 503 explicando o que configurar (`HOME_LAT`/`HOME_LNG`).
 
@@ -277,22 +358,34 @@ Render, Railway ou Fly.io funcionam bem.
 
 ## 9. Estado de verificação
 
-- `npm test`: 32 testes do servidor + 21 do cliente passando (60 vagas e distribuição exata, campos e
-  coordenadas válidos, busca sem acentos, ranking com mínimo de avaliações, faixa neutra das marcas reais,
-  sinônimos, acentos, palavras genéricas, campos vazios sem pontos, requisitos ausentes, ordenação,
-  exclusividade das abas, extração real do PDF e do DOCX de exemplo).
+- `npm test`: **82 testes** — 37 do servidor + 45 do cliente, todos passando. Cobrem: 60 vagas e distribuição
+  exata; bairros de referência (lista permitida, id inválido, distância a partir do bairro, resultados
+  diferentes por bairro); busca (auxiliar ⇄ assistente administrativo, equivalentes, relacionados, acentos,
+  plural/feminino, erros de digitação, abreviações, consultas sem resultado, prevenção de resultados genéricos,
+  ordem por relevância); filtros (salário pelo início da faixa, contratação, modalidade, área, empresa,
+  combinações, limpeza, URL de ida e volta); ordenações; lista × mapa com o mesmo subconjunto em cada aba;
+  Perfil Rápido sem apagar o currículo completo; primeiro emprego; recomendação; importação real de PDF e DOCX.
 - `npm run build`: sem erros nem avisos.
-- Navegador (375 px, 1280 px e 1440 px): todas as páginas; importação de PDF e DOCX no navegador; validação
-  de arquivos (formato, assinatura, 5 MB, `.docm`); salvar só após confirmação; exclusão do currículo; abas
-  com filtros; ordenação de empresas; modal de candidatura; sem rolagem horizontal; build de produção sem
-  erros no console.
+- Navegador, em 320, 375, 768, 1024 e 1440 px: nenhuma página com rolagem horizontal (com e sem perfil);
+  busca "Auxiliar administrativo" → "Assistente administrativo" como cargo equivalente; bairro Itaipuaçu com
+  5 km; Perfil Rápido → "Para Você"; lista e mapa com as mesmas vagas ao alternar pelo menu; empresa → vagas
+  da empresa; no celular, o marcador selecionado fica visível acima do cartão e o zoom não fica coberto pela
+  busca nem pelo cartão. Build de produção servido pelo Express sem erros no console.
+- **Mapa sem internet:** simulado com os eventos `offline`/`online` do navegador (o painel de testes não pode
+  ser desconectado de verdade): o mapa é coberto pela mensagem, a lista continua funcionando (e, no celular,
+  o botão "Ver vagas em lista" abre a lista), o painel de detalhes fica acima da mensagem e o mapa volta
+  quando a conexão retorna. Uma queda real de rede não foi testada.
 - **Adzuna e Greenhouse não foram testadas com dados reais** (credenciais não configuradas no ambiente).
 
 ### Limitações conhecidas
 - Vagas e avaliações são fictícias/simuladas; não há candidatura real nem cadastro de avaliações.
 - A interpretação de currículos é por regras: funciona melhor com currículos organizados em seções
   ("Objetivo", "Experiência"…). Sem OCR para PDFs escaneados.
-- Várias vagas do mesmo bairro compartilham o mesmo ponto de referência e aparecem agrupadas no mapa.
+- Várias vagas do mesmo bairro compartilham o mesmo ponto de referência e aparecem agrupadas no mapa; a
+  distância entre vagas e o bairro de referência é calculada entre pontos aproximados de bairro.
+- A busca por cargos depende do dicionário (`shared/professionalTerms.js`): cargos fora dele só são
+  encontrados pelo título ou pelo texto da vaga. Ampliar o dicionário melhora os resultados.
+- O mapa-base não funciona sem internet (não há tiles offline); a busca e a lista funcionam.
 - O currículo fica em um único navegador (sem conta/sincronização), por decisão de privacidade.
 - `npm audit` ainda aponta, no React Router 6, um redirecionamento aberto via `\` em `<Link>`/`navigate`
   (o app só navega para caminhos fixos) e um problema de hidratação SSR (o app não usa SSR); a correção exige

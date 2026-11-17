@@ -24,7 +24,16 @@ function Chip({ id, label, value, onChange, active, children, icon: Icon }) {
 export function QuickFilters({ filters, setFilters, references, onMore, moreCount = 0, idPrefix = 'qf' }) {
   const refs = references?.length ? references : [{ id: DEFAULT_REFERENCE, name: 'Centro' }];
   return (
-    <div className="scroll-thin -mx-1 flex items-center gap-2 overflow-x-auto px-1 py-1" role="group" aria-label="Filtros rápidos">
+    // `relative`: textos sr-only (position: absolute) precisam ficar contidos e recortados pela rolagem,
+    // senão "escapam" da fileira e criam rolagem horizontal na página.
+    <div className="scroll-thin relative -mx-1 flex items-center gap-2 overflow-x-auto px-1 py-1" role="group" aria-label="Filtros rápidos">
+      {/* "Filtros" primeiro: abre o painel completo e fica sempre visível, mesmo quando a fileira rola. */}
+      {onMore && (
+        <button type="button" onClick={onMore} className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border border-navy bg-navy px-3.5 text-[13px] font-semibold text-white transition-colors hover:bg-navy-700">
+          <SlidersHorizontal size={14} aria-hidden="true" /> Filtros
+          {moreCount > 0 && <span className="grid h-5 min-w-5 place-items-center rounded-full bg-brand px-1.5 text-[11px] text-white">{moreCount}<span className="sr-only"> ativos</span></span>}
+        </button>
+      )}
       <Chip id={`${idPrefix}-ref`} label="Local de referência" icon={MapPin} value={filters.ref} active={filters.ref !== DEFAULT_REFERENCE}
         onChange={(ref) => setFilters({ ref })}>
         {refs.map((r) => <option key={r.id} value={r.id}>{r.id === DEFAULT_REFERENCE ? 'Perto do Centro' : `Perto de ${r.name}`}</option>)}
@@ -45,12 +54,6 @@ export function QuickFilters({ filters, setFilters, references, onMore, moreCoun
         onChange={(area) => setFilters({ area })}>
         {AREA_OPTIONS.map((o) => <option key={o.value} value={o.value}>{o.value === 'all' ? 'Área' : o.label}</option>)}
       </Chip>
-      {onMore && (
-        <button type="button" onClick={onMore} className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full border border-line bg-white px-3.5 text-[13px] font-semibold text-ink transition-colors hover:border-brand/50">
-          <SlidersHorizontal size={14} aria-hidden="true" /> Mais filtros
-          {moreCount > 0 && <span className="grid h-5 min-w-5 place-items-center rounded-full bg-brand px-1.5 text-[11px] text-white">{moreCount}<span className="sr-only"> ativos</span></span>}
-        </button>
-      )}
     </div>
   );
 }
