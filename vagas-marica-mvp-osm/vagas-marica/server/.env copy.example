@@ -1,0 +1,46 @@
+# ===== Servidor =====
+PORT=3001
+# Origem permitida pelo CORS (URL do frontend). Em produção, use o domínio real.
+CLIENT_ORIGIN=http://localhost:5173
+
+# ===== Ponto de referência: Casa do Trabalhador de Maricá =====
+# Endereço divulgado pela Prefeitura (confirme antes de publicar).
+HOME_ADDRESS=Rua Clímaco Pereira, 189, Centro, Maricá - RJ, Brasil
+# RECOMENDADO: confira o ponto em https://www.openstreetmap.org (clique com o botão direito
+# no local > "Mostrar endereço"/copiar coordenadas) e fixe aqui. Assim o Nominatim nem é consultado.
+# Se ficarem vazias, o servidor geocodifica HOME_ADDRESS uma única vez e guarda o resultado em cache.
+HOME_LAT= -22.9194
+HOME_LNG= -43.3489
+
+# ===== Geocodificação: Nominatim (OpenStreetMap), sem chave e sem cartão =====
+# OBRIGATÓRIO para a instância pública: e-mail de contato real do responsável pelo projeto.
+# Ele identifica o app nas requisições, conforme a política de uso do Nominatim.
+NOMINATIM_CONTACT_EMAIL=
+# Opcional: User-Agent próprio (substitui o padrão gerado a partir do e-mail).
+NOMINATIM_USER_AGENT=
+# Opcional: instância própria/terceira, caso o volume ultrapasse a política da pública.
+NOMINATIM_BASE_URL=https://nominatim.openstreetmap.org
+# Intervalo mínimo entre consultas (a pública nunca vai abaixo de 1100 ms).
+NOMINATIM_MIN_INTERVAL_MS=1100
+# Máximo de consultas novas (fora do cache) por busca de vagas.
+NOMINATIM_MAX_LOOKUPS_PER_SEARCH=5
+# Cache persistente em arquivo (relativo à pasta server/). Em hospedagens com disco efêmero,
+# aponte para um volume persistente.
+GEOCODE_CACHE_FILE=data/geocode-cache.json
+
+# ===== Adzuna (https://developer.adzuna.com) =====
+ADZUNA_APP_ID=
+ADZUNA_APP_KEY=
+ADZUNA_COUNTRY=br
+ADZUNA_PAGES=2
+ADZUNA_MAX_DAYS_OLD=60
+
+# ===== Greenhouse (opcional) =====
+# Tokens de quadros públicos de empresas, separados por vírgula.
+GREENHOUSE_BOARD_TOKENS=
+
+# ===== Cache em memória das vagas =====
+CACHE_TTL_MINUTES=15
+
+# Modo demonstração: inclui 60 vagas FICTÍCIAS locais (padrão: true). Use false para desligar.
+DEMO_MODE=true

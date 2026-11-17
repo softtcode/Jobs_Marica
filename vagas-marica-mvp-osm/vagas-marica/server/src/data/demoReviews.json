@@ -1,0 +1,6811 @@
+{
+ "_aviso": "Avaliações SIMULADAS para demonstração. Não representam opiniões de funcionários reais nem a reputação verdadeira de nenhuma empresa.",
+ "criteria": [
+  "ambiente",
+  "remuneracao",
+  "crescimento",
+  "gestao",
+  "equilibrio"
+ ],
+ "reviews": [
+  {
+   "id": "mcdonalds-001",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-17",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-002",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-01-24",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-003",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-02",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-004",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-06",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-005",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-23",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-006",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-02",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-007",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-16",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-008",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-23",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-009",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-11",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-010",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-28",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-011",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-15",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-012",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-01",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-013",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-08",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-014",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-02",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-015",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-09",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-016",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-05",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-017",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-14",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-018",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-15",
+   "simulated": true
+  },
+  {
+   "id": "mcdonalds-019",
+   "companyId": "mcdonalds",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-20",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-001",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-07",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-002",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-25",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-003",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-22",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-004",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-06",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-005",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-21",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-006",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-10",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-007",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-02",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-008",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-18",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-009",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-08",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-010",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-23",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-011",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-03",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-012",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-09",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-013",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-28",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-014",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-11",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-015",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-18",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-016",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-03",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-017",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-13",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-018",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-13",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-019",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-02",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-020",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-18",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-021",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-05",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-022",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-26",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-023",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-09-13",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-024",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-05",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-025",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-11",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-026",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-15",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-027",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-22",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-028",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-14",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-029",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-18",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-030",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-27",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-031",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-23",
+   "simulated": true
+  },
+  {
+   "id": "burger-king-032",
+   "companyId": "burger-king",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-08",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-001",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-25",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-002",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-04",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-003",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-07",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-004",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-31",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-005",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-31",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-006",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-30",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-007",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-02",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-008",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-16",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-009",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-22",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-010",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-30",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-011",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-18",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-012",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-18",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-013",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-01",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-014",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-24",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-015",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-03",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-016",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-11",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-017",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-18",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-018",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-28",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-019",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-04",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-020",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-02",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-021",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-04",
+   "simulated": true
+  },
+  {
+   "id": "cacau-show-022",
+   "companyId": "cacau-show",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-05",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-001",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-30",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-002",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-05",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-003",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-27",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-004",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-29",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-005",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-22",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-006",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-23",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-007",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-16",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-008",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-26",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-009",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-02",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-010",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-21",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-011",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-13",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-012",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-06",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-013",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-11",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-014",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-21",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-015",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-24",
+   "simulated": true
+  },
+  {
+   "id": "o-boticario-016",
+   "companyId": "o-boticario",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-22",
+   "simulated": true
+  },
+  {
+   "id": "americanas-001",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-04",
+   "simulated": true
+  },
+  {
+   "id": "americanas-002",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-19",
+   "simulated": true
+  },
+  {
+   "id": "americanas-003",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-07",
+   "simulated": true
+  },
+  {
+   "id": "americanas-004",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-11",
+   "simulated": true
+  },
+  {
+   "id": "americanas-005",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-26",
+   "simulated": true
+  },
+  {
+   "id": "americanas-006",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-03",
+   "simulated": true
+  },
+  {
+   "id": "americanas-007",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-10",
+   "simulated": true
+  },
+  {
+   "id": "americanas-008",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-31",
+   "simulated": true
+  },
+  {
+   "id": "americanas-009",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-19",
+   "simulated": true
+  },
+  {
+   "id": "americanas-010",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-11",
+   "simulated": true
+  },
+  {
+   "id": "americanas-011",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-23",
+   "simulated": true
+  },
+  {
+   "id": "americanas-012",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-02",
+   "simulated": true
+  },
+  {
+   "id": "americanas-013",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-06",
+   "simulated": true
+  },
+  {
+   "id": "americanas-014",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-10",
+   "simulated": true
+  },
+  {
+   "id": "americanas-015",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-19",
+   "simulated": true
+  },
+  {
+   "id": "americanas-016",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-02",
+   "simulated": true
+  },
+  {
+   "id": "americanas-017",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-05-12",
+   "simulated": true
+  },
+  {
+   "id": "americanas-018",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-01",
+   "simulated": true
+  },
+  {
+   "id": "americanas-019",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-15",
+   "simulated": true
+  },
+  {
+   "id": "americanas-020",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-05",
+   "simulated": true
+  },
+  {
+   "id": "americanas-021",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-11",
+   "simulated": true
+  },
+  {
+   "id": "americanas-022",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-13",
+   "simulated": true
+  },
+  {
+   "id": "americanas-023",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-23",
+   "simulated": true
+  },
+  {
+   "id": "americanas-024",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-25",
+   "simulated": true
+  },
+  {
+   "id": "americanas-025",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-04",
+   "simulated": true
+  },
+  {
+   "id": "americanas-026",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-16",
+   "simulated": true
+  },
+  {
+   "id": "americanas-027",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-14",
+   "simulated": true
+  },
+  {
+   "id": "americanas-028",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-20",
+   "simulated": true
+  },
+  {
+   "id": "americanas-029",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-08",
+   "simulated": true
+  },
+  {
+   "id": "americanas-030",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-03",
+   "simulated": true
+  },
+  {
+   "id": "americanas-031",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-29",
+   "simulated": true
+  },
+  {
+   "id": "americanas-032",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-06",
+   "simulated": true
+  },
+  {
+   "id": "americanas-033",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-04",
+   "simulated": true
+  },
+  {
+   "id": "americanas-034",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-02",
+   "simulated": true
+  },
+  {
+   "id": "americanas-035",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-22",
+   "simulated": true
+  },
+  {
+   "id": "americanas-036",
+   "companyId": "americanas",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-14",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-001",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-16",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-002",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-15",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-003",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-12",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-004",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-15",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-005",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-15",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-006",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-05",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-007",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-09",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-008",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-18",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-009",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-13",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-010",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-12",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-011",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-01",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-012",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-26",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-013",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-28",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-014",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-09",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-015",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-12",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-016",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-05",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-017",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-31",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-018",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-02",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-019",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-03-13",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-020",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-12",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-021",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-05",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-022",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-18",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-023",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-02",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-024",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-05",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-025",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-01",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-026",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-05",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-027",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-08",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-028",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-06",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-029",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-12",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-030",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-30",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-031",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-03",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-032",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-08",
+   "simulated": true
+  },
+  {
+   "id": "assai-atacadista-033",
+   "companyId": "assai-atacadista",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-27",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-001",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-19",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-002",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-20",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-003",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-07",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-004",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-16",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-005",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-31",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-006",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-23",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-007",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-16",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-008",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-21",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-009",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-20",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-010",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-26",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-011",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-22",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-012",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-15",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-013",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-014",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-03",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-015",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-19",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-016",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-21",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-017",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-03",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-018",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-12",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-019",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-09",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-020",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-18",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-021",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-16",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-022",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-02",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-023",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-23",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-024",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-26",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-025",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-24",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-026",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-027",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-09",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-028",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-08",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-029",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-25",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-030",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-01",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-031",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-15",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-032",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-22",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-033",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-02",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-034",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-27",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-035",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-01",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-036",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-14",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-037",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-038",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-16",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-039",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-11",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-040",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-21",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-041",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-29",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-042",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-17",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-043",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-20",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-044",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-15",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-045",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-29",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-046",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-15",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-047",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-24",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-048",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-17",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-049",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-050",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-28",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-051",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-11",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-052",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-29",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-053",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-12",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-054",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-22",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-055",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-056",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-01",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-057",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-05",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-058",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-16",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-059",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-22",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-060",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-09",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-061",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-13",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-062",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-19",
+   "simulated": true
+  },
+  {
+   "id": "carrefour-063",
+   "companyId": "carrefour",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-13",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-001",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-02",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-002",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-19",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-003",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-04",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-004",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-11",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-005",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-27",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-006",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-01",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-007",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-13",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-008",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-21",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-009",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-30",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-010",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-21",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-011",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-04",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-012",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-08",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-013",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-08",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-014",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-28",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-015",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-17",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-016",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-04",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-017",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-25",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-018",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-08",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-019",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-02-24",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-020",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-25",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-021",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-12",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-022",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-12",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-023",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-11",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-024",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-22",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-025",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-02",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-026",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-06",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-027",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-05",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-028",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-05",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-029",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-04",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-030",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-06",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-031",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-09-05",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-032",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-08",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-033",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-12",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-034",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-04",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-035",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-22",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-036",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-17",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-037",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-01",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-038",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-31",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-039",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-24",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-040",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-05",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-041",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-28",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-042",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-30",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-043",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-06",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-044",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-09",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-045",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-18",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-046",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-31",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-047",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-22",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-048",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-23",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-049",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-05",
+   "simulated": true
+  },
+  {
+   "id": "drogarias-pacheco-050",
+   "companyId": "drogarias-pacheco",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-26",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-001",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-14",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-002",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-19",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-003",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-28",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-004",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-04",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-005",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-22",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-006",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-09",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-007",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-02",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-008",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-02-10",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-009",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-10",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-010",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-01",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-011",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-10",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-012",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-09",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-013",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-02",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-014",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-12",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-015",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-20",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-016",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-29",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-017",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-29",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-018",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-03",
+   "simulated": true
+  },
+  {
+   "id": "magazine-luiza-019",
+   "companyId": "magazine-luiza",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-11",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-001",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-28",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-002",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-30",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-003",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-03-18",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-004",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-03",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-005",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-02-04",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-006",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-14",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-007",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-20",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-008",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-28",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-009",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-01-26",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-010",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-30",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-011",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-19",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-012",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-10",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-013",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-07",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-014",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-01",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-015",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-02-19",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-016",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-19",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-017",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-10",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-018",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-03",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-019",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-10",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-020",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-01",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-021",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-28",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-022",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-30",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-023",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-22",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-024",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-11",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-025",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-13",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-026",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-25",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-027",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-02",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-028",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-11",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-029",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-03",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-030",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-23",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-031",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-24",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-032",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-28",
+   "simulated": true
+  },
+  {
+   "id": "oceano-azul-comercio-033",
+   "companyId": "oceano-azul-comercio",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-17",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-001",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-04",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-002",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-02",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-003",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-09",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-004",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-04",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-005",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-21",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-006",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-28",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-007",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-24",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-008",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-19",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-009",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-17",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-010",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-18",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-011",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-07",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-012",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-03",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-013",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-24",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-014",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-25",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-015",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-03",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-016",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-19",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-017",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-17",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-018",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-28",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-019",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-06",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-020",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-19",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-021",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-11",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-022",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-23",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-023",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-01",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-024",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-08",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-025",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-24",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-026",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-08",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-027",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-28",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-028",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-13",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-029",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-13",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-030",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-14",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-031",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-22",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-032",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-06",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-033",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-09",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-034",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-12",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-035",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-23",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-036",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-23",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-037",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-26",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-038",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-31",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-039",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-16",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-040",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-30",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-041",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-22",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-042",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-26",
+   "simulated": true
+  },
+  {
+   "id": "atlantico-servicos-043",
+   "companyId": "atlantico-servicos",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-14",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-001",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-24",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-002",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-29",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-003",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-04",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-004",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-04-14",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-005",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-28",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-006",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-04-11",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-007",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-02",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-008",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-19",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-009",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-31",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-010",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-04-24",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-011",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-14",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-012",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 1,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 1
+   },
+   "createdAt": "2026-01-26",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-013",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-05",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-014",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-13",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-015",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-05-13",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-016",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 1,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-21",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-017",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-11",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-018",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 1,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 1
+   },
+   "createdAt": "2026-03-23",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-019",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-25",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-020",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-13",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-021",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-02-02",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-022",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-05",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-023",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-27",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-024",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-08",
+   "simulated": true
+  },
+  {
+   "id": "horizonte-logistica-025",
+   "companyId": "horizonte-logistica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-29",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-001",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-27",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-002",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-23",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-003",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 2,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-08",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-004",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-27",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-005",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-17",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-006",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-30",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-007",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-06-16",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-008",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-05",
+   "simulated": true
+  },
+  {
+   "id": "costa-verde-tecnologia-009",
+   "companyId": "costa-verde-tecnologia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-14",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-001",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-07",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-002",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-04",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-003",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-27",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-004",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-17",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-005",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-03-30",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-006",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-03-28",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-007",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-08-23",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-008",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-06-27",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-009",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 1
+   },
+   "createdAt": "2026-03-14",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-010",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 1
+   },
+   "createdAt": "2026-04-03",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-011",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-13",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-012",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 1
+   },
+   "createdAt": "2026-07-23",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-013",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-10-02",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-014",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-09",
+   "simulated": true
+  },
+  {
+   "id": "marica-digital-solutions-015",
+   "companyId": "marica-digital-solutions",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-10",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-001",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-05",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-002",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-22",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-003",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-21",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-004",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-23",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-005",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-09",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-006",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-24",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-007",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-16",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-008",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-06-07",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-009",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-15",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-010",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-03",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-011",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-11",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-012",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-14",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-013",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-09-02",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-014",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-17",
+   "simulated": true
+  },
+  {
+   "id": "nova-marica-engenharia-015",
+   "companyId": "nova-marica-engenharia",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-15",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-001",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-13",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-002",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 1,
+    "remuneracao": 3,
+    "crescimento": 2,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-01",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-003",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-19",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-004",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 2,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 1,
+    "equilibrio": 2
+   },
+   "createdAt": "2026-07-04",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-005",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-03",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-006",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 2,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-15",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-007",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 3,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-01-15",
+   "simulated": true
+  },
+  {
+   "id": "clinica-bem-viver-marica-008",
+   "companyId": "clinica-bem-viver-marica",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 2,
+    "crescimento": 3,
+    "gestao": 2,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-07-16",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-001",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-17",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-002",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-30",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-003",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-22",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-004",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-06",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-005",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-11",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-006",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-05",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-007",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-30",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-008",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-15",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-009",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-29",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-010",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-14",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-011",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-04",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-012",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-28",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-013",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-14",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-014",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-19",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-015",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-15",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-016",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-24",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-017",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-03",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-018",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-25",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-019",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-01",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-020",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-09",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-021",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-17",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-022",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-02-04",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-023",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-14",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-024",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-14",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-025",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-31",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-026",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-17",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-027",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-27",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-028",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-20",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-029",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-26",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-030",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-05",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-031",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-14",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-032",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-07",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-033",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-24",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-034",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-05-09",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-035",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-11",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-036",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-13",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-037",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-19",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-038",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-11",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-039",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-03",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-040",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-30",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-041",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-19",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-042",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-17",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-043",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-07-05",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-044",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-10-08",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-045",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 3
+   },
+   "createdAt": "2026-08-10",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-046",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-16",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-047",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-31",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-048",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-02",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-049",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-30",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-050",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-13",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-051",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-06",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-052",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-29",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-053",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-24",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-054",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-24",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-055",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-06-09",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-056",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-27",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-057",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-20",
+   "simulated": true
+  },
+  {
+   "id": "sabor-da-lagoa-lanches-058",
+   "companyId": "sabor-da-lagoa-lanches",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-05",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-001",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-08-31",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-002",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-12",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-003",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-30",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-004",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-10",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-005",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-25",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-006",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 5,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-01",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-007",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-05-12",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-008",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-10-16",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-009",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-10",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-010",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-03",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-011",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-07-11",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-012",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 3,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-05-30",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-013",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 5,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-03-01",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-014",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-09-15",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-015",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-08",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-016",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-02-27",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-017",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-08-16",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-018",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-02-17",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-019",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-27",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-020",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-04-25",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-021",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-03-13",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-022",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-09-20",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-023",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-10-25",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-024",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 4,
+    "crescimento": 5,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-07",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-025",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 5,
+    "remuneracao": 4,
+    "crescimento": 4,
+    "gestao": 5,
+    "equilibrio": 5
+   },
+   "createdAt": "2026-01-12",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-026",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 4,
+    "remuneracao": 3,
+    "crescimento": 3,
+    "gestao": 5,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-04-18",
+   "simulated": true
+  },
+  {
+   "id": "pousada-recanto-de-ponta-negra-027",
+   "companyId": "pousada-recanto-de-ponta-negra",
+   "ratings": {
+    "ambiente": 3,
+    "remuneracao": 4,
+    "crescimento": 3,
+    "gestao": 4,
+    "equilibrio": 4
+   },
+   "createdAt": "2026-01-19",
+   "simulated": true
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "_aviso": "Dados DEMONSTRATIVOS. Marcas reais aparecem apenas como referência de navegação: não há afirmação de unidades, vagas ou avaliações verificadas em Maricá. Empresas fictícias não representam entidades verificadas.",
+  "companies": [
+    { "id": "mcdonalds", "name": "McDonald's", "sector": "Alimentação", "isReal": true, "description": "Rede internacional de restaurantes de serviço rápido. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "burger-king", "name": "Burger King", "sector": "Alimentação", "isReal": true, "description": "Rede internacional de restaurantes de serviço rápido. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "cacau-show", "name": "Cacau Show", "sector": "Varejo", "isReal": true, "description": "Rede brasileira de lojas de chocolates. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "o-boticario", "name": "O Boticário", "sector": "Beleza e cosméticos", "isReal": true, "description": "Rede brasileira de perfumaria e cosméticos. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "americanas", "name": "Americanas", "sector": "Varejo", "isReal": true, "description": "Rede brasileira de lojas de departamento e comércio eletrônico. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "assai-atacadista", "name": "Assaí Atacadista", "sector": "Supermercados e atacado", "isReal": true, "description": "Rede brasileira de atacarejo. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "carrefour", "name": "Carrefour", "sector": "Supermercados e atacado", "isReal": true, "description": "Rede internacional de hipermercados e supermercados. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "drogarias-pacheco", "name": "Drogarias Pacheco", "sector": "Farmácia e saúde", "isReal": true, "description": "Rede de farmácias com atuação no Rio de Janeiro. Marca usada apenas como referência de navegação neste protótipo." },
+    { "id": "magazine-luiza", "name": "Magazine Luiza", "sector": "Varejo", "isReal": true, "description": "Rede brasileira de varejo e comércio eletrônico. Marca usada apenas como referência de navegação neste protótipo." },
+
+    { "id": "oceano-azul-comercio", "name": "Oceano Azul Comércio", "sector": "Supermercados e atacado", "isReal": false, "description": "Empresa fictícia de varejo de bairro criada para a demonstração." },
+    { "id": "atlantico-servicos", "name": "Atlântico Serviços", "sector": "Serviços e facilities", "isReal": false, "description": "Empresa fictícia de limpeza, manutenção e eventos criada para a demonstração." },
+    { "id": "horizonte-logistica", "name": "Horizonte Logística", "sector": "Logística", "isReal": false, "description": "Operador logístico fictício criado para a demonstração." },
+    { "id": "costa-verde-tecnologia", "name": "Costa Verde Tecnologia", "sector": "Tecnologia", "isReal": false, "description": "Empresa fictícia de suporte e projetos de TI criada para a demonstração." },
+    { "id": "marica-digital-solutions", "name": "Maricá Digital Solutions", "sector": "Tecnologia", "isReal": false, "description": "Software house fictícia criada para a demonstração." },
+    { "id": "nova-marica-engenharia", "name": "Nova Maricá Engenharia", "sector": "Construção e engenharia", "isReal": false, "description": "Construtora fictícia criada para a demonstração." },
+    { "id": "clinica-bem-viver-marica", "name": "Clínica Bem Viver Maricá", "sector": "Farmácia e saúde", "isReal": false, "description": "Clínica fictícia criada para a demonstração." },
+    { "id": "sabor-da-lagoa-lanches", "name": "Sabor da Lagoa Lanches", "sector": "Alimentação", "isReal": false, "description": "Lanchonete fictícia criada para a demonstração." },
+    { "id": "pousada-recanto-de-ponta-negra", "name": "Pousada Recanto de Ponta Negra", "sector": "Turismo e hotelaria", "isReal": false, "description": "Pousada fictícia criada para a demonstração." }
+  ]
+}
