@@ -11,7 +11,7 @@ function Step({ n, icon: Icon, title, hint, children }) {
   return (
     <section className="card p-5 sm:p-6" aria-labelledby={`qp-${n}`}>
       <div className="mb-4 flex items-start gap-3">
-        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-navy font-display text-sm font-bold text-brand-light" aria-hidden="true">{n}</span>
+        <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-brand font-display text-sm font-bold text-white" aria-hidden="true">{n}</span>
         <div>
           <h2 id={`qp-${n}`} className="flex items-center gap-2 text-base font-bold text-ink">
             <Icon size={17} className="text-brand" aria-hidden="true" /> {title}

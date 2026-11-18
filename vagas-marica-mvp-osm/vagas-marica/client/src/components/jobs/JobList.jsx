@@ -120,7 +120,7 @@ export default function JobList({
     <div ref={rootRef} className="space-y-3" aria-busy={loading}>
       {error && (
         <Notice tone="error" title="A atualização falhou"
-          action={<button type="button" onClick={refresh} className="text-sm font-semibold text-red-800 underline">Tentar novamente</button>}>
+          action={<button type="button" onClick={refresh} className="text-sm font-semibold text-danger underline">Tentar novamente</button>}>
           {error.message} Exibindo o último resultado carregado.
         </Notice>
       )}

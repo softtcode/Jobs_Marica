@@ -19,7 +19,7 @@ function Fact({ icon: Icon, label, children }) {
       <Icon size={17} className="mt-0.5 shrink-0 text-brand" aria-hidden="true" />
       <div className="min-w-0">
         <dt className="text-[11px] font-medium uppercase tracking-wide text-muted">{label}</dt>
-        <dd className={`mt-0.5 text-sm font-semibold ${known ? 'text-ink' : 'font-normal text-slate-400'}`}>
+        <dd className={`mt-0.5 text-sm font-semibold ${known ? 'text-ink' : 'font-normal text-slate-500'}`}>
           {known ? children : NOT_INFORMED}
         </dd>
       </div>
@@ -89,9 +89,9 @@ function MatchSection({ match }) {
       </p>
 
       {match.unmetRequired.length > 0 && (
-        <div className="mt-3 rounded-xl border border-amber-200 bg-warning-soft p-3">
-          <p className="flex items-center gap-1.5 text-[13px] font-semibold text-amber-900"><AlertTriangle size={15} aria-hidden="true" /> Requisitos obrigatórios não identificados no currículo</p>
-          <ul className="mt-1.5 list-disc space-y-0.5 pl-6 text-[13px] text-amber-900">{match.unmetRequired.map((t) => <li key={t}>{t}</li>)}</ul>
+        <div className="mt-3 rounded-xl border border-warning/25 bg-warning-soft p-3">
+          <p className="flex items-center gap-1.5 text-[13px] font-semibold text-warning"><AlertTriangle size={15} aria-hidden="true" /> Requisitos obrigatórios não identificados no currículo</p>
+          <ul className="mt-1.5 list-disc space-y-0.5 pl-6 text-[13px] text-ink">{match.unmetRequired.map((t) => <li key={t}>{t}</li>)}</ul>
         </div>
       )}
 
@@ -122,7 +122,7 @@ function MatchSection({ match }) {
         <dl className="mt-2 space-y-1.5">
           {Object.entries(match.breakdown).map(([k, b]) => (
             <div key={k} className="flex justify-between gap-3">
-              <dt className="text-slate-600">{CRITERIA_LABELS[k]} <span className="text-slate-400">(peso {b.weight})</span></dt>
+              <dt className="text-slate-600">{CRITERIA_LABELS[k]} <span className="text-slate-500">(peso {b.weight})</span></dt>
               <dd className="font-semibold text-ink">{b.points == null ? 'vaga não informa' : `${b.points}/${b.weight}`}</dd>
             </div>
           ))}
@@ -183,7 +183,7 @@ function DetailsContent({ job, match, onClose, mapHref, onShowOnMap, closeRef, r
           {job.description ? (
             <p className="whitespace-pre-line text-sm leading-relaxed text-slate-700">{job.description}</p>
           ) : (
-            <p className="text-sm text-slate-400">{NOT_INFORMED}</p>
+            <p className="text-sm text-slate-500">{NOT_INFORMED}</p>
           )}
           {job.descriptionIsPartial && (
             <p className="mt-3 rounded-xl bg-surface p-3 text-xs leading-relaxed text-muted">

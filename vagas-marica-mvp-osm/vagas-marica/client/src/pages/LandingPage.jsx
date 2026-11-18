@@ -90,7 +90,7 @@ function RadiusIllustration({ home }) {
       <div className="absolute inset-0 rounded-full border border-brand-light/15" />
       <div className="absolute inset-[16%] rounded-full border border-brand-light/20" />
       <div className="absolute inset-[32%] rounded-full border border-dashed border-brand-light/40 bg-brand/10" />
-      <div className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-2xl border-4 border-navy bg-brand text-white shadow-[0_0_0_10px_rgba(37,99,235,.18)]">
+      <div className="absolute left-1/2 top-1/2 grid h-16 w-16 -translate-x-1/2 -translate-y-1/2 place-items-center rounded-2xl border-4 border-navy bg-brand text-white shadow-[0_0_0_10px_theme(colors.brand.DEFAULT/18%)]">
         <Briefcase size={26} />
       </div>
       {[['18%', '24%'], ['72%', '30%'], ['64%', '74%'], ['26%', '68%'], ['86%', '56%']].map(([l, t], i) => (
@@ -181,7 +181,7 @@ export default function LandingPage() {
       {/* ===== Hero ===== */}
       <section className="relative overflow-hidden bg-navy text-white">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
-        <div className="absolute -top-40 left-1/2 h-[480px] w-[900px] -translate-x-1/2 rounded-full bg-brand/25 blur-[120px]" aria-hidden="true" />
+        <div className="absolute -top-40 left-1/2 h-[480px] w-[900px] -translate-x-1/2 rounded-full bg-brand/15 blur-[120px]" aria-hidden="true" />
         <div className="container-page relative grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-[1.15fr_1fr] lg:py-24">
           <div className="animate-fade-up">
             <p className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-medium text-brand-light">
@@ -213,7 +213,7 @@ export default function LandingPage() {
             <div className="mt-8 grid gap-3 sm:grid-cols-2 sm:gap-4">
               <Link to="/vagas" className="group rounded-2xl bg-brand p-4 text-white shadow-lift transition-colors hover:bg-brand-dark">
                 <span className="flex items-center gap-2 font-display text-base font-bold"><Search size={18} aria-hidden="true" /> Encontrar vagas agora</span>
-                <span className="mt-1 block text-[13px] text-blue-100">Pesquise e filtre por bairro. Não precisa de currículo.</span>
+                <span className="mt-1 block text-[13px] text-white/90">Pesquise e filtre por bairro. Não precisa de currículo.</span>
               </Link>
               <Link to="/curriculo?modo=rapido" className="group rounded-2xl border border-white/15 bg-white/10 p-4 text-white transition-colors hover:bg-white/15">
                 <span className="flex items-center gap-2 font-display text-base font-bold"><Sparkles size={18} className="text-brand-light" aria-hidden="true" /> Descobrir vagas para meu perfil</span>
@@ -229,7 +229,7 @@ export default function LandingPage() {
         {/* Linha costeira estilizada: referência discreta ao litoral de Maricá (decorativa, não é mapa). */}
         <svg className="absolute inset-x-0 bottom-0 h-10 w-full text-surface" viewBox="0 0 1440 40" preserveAspectRatio="none" aria-hidden="true">
           <path fill="currentColor" d="M0 28c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0v12H0z" />
-          <path fill="none" stroke="rgba(96,165,250,.35)" strokeWidth="1.5" d="M0 22c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0" />
+          <path fill="none" className="stroke-brand-light/35" strokeWidth="1.5" d="M0 22c120-14 240-14 360 0s240 14 360 0 240-14 360 0 240 14 360 0" />
         </svg>
       </section>
 
@@ -264,7 +264,7 @@ export default function LandingPage() {
         <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
           {CATEGORIES.map(({ title, icon: Icon, to, text, note }) => (
             <li key={title}>
-              <Link to={to} className="group flex h-full flex-col rounded-2xl border border-line bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lift">
+              <Link to={to} className="group flex h-full flex-col rounded-2xl border border-line bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:bg-brand-soft/50 hover:shadow-lift">
                 <span className="grid h-11 w-11 place-items-center rounded-xl bg-brand-soft text-brand transition-colors group-hover:bg-brand group-hover:text-white">
                   <Icon size={22} aria-hidden="true" />
                 </span>
@@ -305,7 +305,7 @@ export default function LandingPage() {
         <h2 id="features-title" className="mt-2 text-2xl font-extrabold sm:text-3xl">Mais do que uma lista de vagas</h2>
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {FEATURES.map(({ icon: Icon, title, text, to, cta }) => (
-            <Link key={to} to={to} className="group card flex gap-4 p-6 transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:shadow-lift">
+            <Link key={to} to={to} className="group card flex gap-4 p-6 transition-all hover:-translate-y-0.5 hover:border-brand/40 hover:bg-brand-soft/40 hover:shadow-lift">
               <span className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-navy text-brand-light"><Icon size={22} aria-hidden="true" /></span>
               <div>
                 <h3 className="text-lg font-bold text-ink">{title}</h3>
@@ -321,7 +321,7 @@ export default function LandingPage() {
       {/* ===== Sobre ===== */}
       <section className="container-page pb-16 sm:pb-20" aria-labelledby="about-title">
         <div className="relative overflow-hidden rounded-3xl bg-navy px-6 py-10 text-white sm:px-10 sm:py-12">
-          <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brand/30 blur-3xl" aria-hidden="true" />
+          <div className="absolute -right-24 -top-24 h-72 w-72 rounded-full bg-brand/20 blur-3xl" aria-hidden="true" />
           <div className="relative grid gap-8 lg:grid-cols-[1.5fr_1fr] lg:items-center">
             <div>
               <p className="eyebrow text-brand-light">Sobre o Jobs Maricá</p>

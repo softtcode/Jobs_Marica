@@ -23,9 +23,12 @@ function Legend({ referenceName }) {
     <div className="pointer-events-auto rounded-xl border border-line bg-white/95 p-3 text-xs text-slate-600 shadow-card backdrop-blur">
       <p className="mb-2 font-semibold text-ink">Legenda</p>
       <ul className="space-y-1.5">
-        <li className="flex items-center gap-2"><span className="h-3.5 w-3.5 rounded bg-navy" aria-hidden="true" /> Referência: {referenceName || 'Centro'}</li>
+        {/* Cada item difere pela forma (quadrado, anel tracejado, ponto, número), não só pela cor. */}
+        <li className="flex items-center gap-2"><span className="h-3.5 w-3.5 rounded bg-navy ring-2 ring-geo/45" aria-hidden="true" /> Referência: {referenceName || 'Centro'}</li>
+        <li className="flex items-center gap-2"><span className="h-3.5 w-3.5 rounded-full border-2 border-dashed border-geo bg-geo/10" aria-hidden="true" /> Área de busca (distância)</li>
         <li className="flex items-center gap-2"><span className="h-3.5 w-3.5 rounded-full border-2 border-dashed border-brand bg-white" aria-hidden="true" /> Vaga (local aproximado do bairro)</li>
         <li className="flex items-center gap-2"><span className="h-3.5 w-3.5 rounded-full border-2 border-white bg-brand shadow" aria-hidden="true" /> Vaga (local preciso)</li>
+        <li className="flex items-center gap-2"><span className="grid h-3.5 w-3.5 place-items-center rounded-full bg-navy text-[8px] font-bold text-white" aria-hidden="true">3</span> Várias vagas no mesmo ponto</li>
       </ul>
     </div>
   );

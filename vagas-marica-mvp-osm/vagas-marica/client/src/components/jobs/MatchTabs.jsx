@@ -17,12 +17,12 @@ export function MatchTabs({ tab, onTab, counts, compact = false }) {
             <button
               key={id} type="button" role="tab" aria-selected={active} aria-controls="results-panel"
               onClick={() => onTab(id)}
-              className={`flex items-center justify-center gap-1.5 whitespace-nowrap rounded-xl px-2 py-2.5 text-[13px] font-semibold transition-colors sm:gap-2 sm:px-3 sm:text-sm ${active ? 'bg-navy text-white shadow-sm' : 'text-slate-600 hover:bg-surface hover:text-ink'}`}
+              className={`flex items-center justify-center gap-1.5 whitespace-nowrap rounded-xl px-2 py-2.5 text-[13px] font-semibold transition-colors sm:gap-2 sm:px-3 sm:text-sm ${active ? 'bg-brand text-white shadow-sm' : 'text-slate-600 hover:bg-brand-soft/60 hover:text-brand-dark'}`}
             >
-              <Icon size={16} className={`hidden min-[400px]:block ${active ? 'text-brand-light' : ''}`} aria-hidden="true" />
+              <Icon size={16} className={`hidden min-[400px]:block ${active ? 'text-white' : ''}`} aria-hidden="true" />
               {label}
               {count != null && (
-                <span className={`rounded-full px-2 py-0.5 text-[11px] ${active ? 'bg-white/15 text-white' : 'bg-surface text-slate-600'}`}>{count}</span>
+                <span className={`rounded-full px-2 py-0.5 text-[11px] ${active ? 'bg-white/20 text-white' : 'bg-surface text-slate-600'}`}>{count}</span>
               )}
             </button>
           );

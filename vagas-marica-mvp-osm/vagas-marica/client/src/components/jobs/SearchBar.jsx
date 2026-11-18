@@ -31,7 +31,7 @@ export default function SearchBar({
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
-          className={`w-full rounded-xl bg-transparent pr-9 text-ink placeholder:text-slate-400 focus:outline-none ${
+          className={`w-full rounded-xl bg-transparent pr-9 text-ink placeholder:text-slate-500 focus:outline-none ${
             lg ? 'h-12 pl-12 text-base' : 'h-10 pl-10 text-sm'
           }`}
         />

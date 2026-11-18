@@ -11,7 +11,7 @@ export default function StarRating({ value, size = 16, showValue = false, classN
         <span className="flex text-slate-200">
           {Array.from({ length: 5 }, (_, i) => <Star key={i} size={size} fill="currentColor" strokeWidth={0} aria-hidden="true" />)}
         </span>
-        <span className="absolute inset-0 flex overflow-hidden text-amber-400" style={{ width: `${(value / 5) * 100}%` }}>
+        <span className="absolute inset-0 flex overflow-hidden text-rating" style={{ width: `${(value / 5) * 100}%` }}>
           {Array.from({ length: 5 }, (_, i) => <Star key={i} size={size} fill="currentColor" strokeWidth={0} className="shrink-0" aria-hidden="true" />)}
         </span>
       </span>

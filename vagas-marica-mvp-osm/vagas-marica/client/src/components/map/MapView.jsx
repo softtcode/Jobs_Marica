@@ -4,6 +4,7 @@ import { AttributionControl, Circle, MapContainer, Marker, TileLayer, useMap, Zo
 import MarkerClusterGroup from 'react-leaflet-cluster';
 import 'leaflet/dist/leaflet.css';
 import { groupByCoordinate, groupIsExact } from '../../utils/geo.js';
+import { palette } from '../../theme/palette.js';
 
 const TILE_URL = import.meta.env.VITE_TILE_URL || 'https://tile.openstreetmap.org/{z}/{x}/{y}.png';
 const TILE_ATTRIBUTION =
@@ -179,7 +180,9 @@ export default function MapView({ reference, radiusKm, jobs, selectedId, onSelec
           center={center}
           radius={radiusKm * 1000}
           interactive={false}
-          pathOptions={{ color: '#2563EB', weight: 2, opacity: 0.85, dashArray: '6 6', fillColor: '#2563EB', fillOpacity: 0.06 }}
+          // Raio de distância em azul geográfico: separa a "área de busca" dos marcadores de vaga
+          // (vermelhos) e evita que uma grande área vermelha pareça um alerta ou zona de risco.
+          pathOptions={{ color: palette.geo, weight: 2, opacity: 0.8, dashArray: '6 6', fillColor: palette.geo, fillOpacity: 0.06 }}
         />
 
         <Marker position={center} icon={homeIcon} zIndexOffset={-1000} title={home.name} alt={home.name} />

@@ -69,7 +69,7 @@ export default function ImportPanel({ onImported, hasSaved = false }) {
 
       {status.state === 'error' && <Notice tone="error" title="Não foi possível importar">{status.message}</Notice>}
       {status.state === 'done' && (
-        <div role="status" className="flex gap-3 rounded-xl border border-green-200 bg-success-soft p-3.5 text-sm text-green-900">
+        <div role="status" className="flex gap-3 rounded-xl border border-success/25 bg-success-soft p-3.5 text-sm text-ink">
           <CheckCircle2 size={18} className="mt-0.5 shrink-0 text-success" aria-hidden="true" />
           <div>
             <p className="font-semibold">Texto lido de {status.fileName}</p>

@@ -35,7 +35,7 @@ export default function AboutPage() {
     <>
       <section className="relative overflow-hidden bg-navy text-white">
         <div className="hero-grid absolute inset-0" aria-hidden="true" />
-        <div className="absolute -top-32 right-0 h-80 w-[600px] rounded-full bg-brand/25 blur-[110px]" aria-hidden="true" />
+        <div className="absolute -top-32 right-0 h-80 w-[600px] rounded-full bg-brand/15 blur-[110px]" aria-hidden="true" />
         <div className="container-page relative py-16 sm:py-20">
           <p className="eyebrow text-brand-light">Sobre o projeto</p>
           <h1 className="mt-3 max-w-3xl text-4xl font-extrabold leading-tight sm:text-5xl">

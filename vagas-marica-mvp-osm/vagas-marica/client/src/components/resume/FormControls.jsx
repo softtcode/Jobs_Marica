@@ -66,7 +66,7 @@ export function TagInput({ id, label, values, onChange, suggestions = [], placeh
           }}
           onBlur={() => add(draft)}
           placeholder={values.length ? 'Adicionar…' : placeholder}
-          className="h-8 min-w-[10rem] flex-1 bg-transparent px-1.5 text-sm placeholder:text-slate-400 focus:outline-none"
+          className="h-8 min-w-[10rem] flex-1 bg-transparent px-1.5 text-sm placeholder:text-slate-500 focus:outline-none"
         />
         <datalist id={listId}>{suggestions.map((s) => <option key={s} value={s} />)}</datalist>
       </div>
@@ -88,7 +88,7 @@ export function ChipGroup({ legend, options, values, onChange, hint }) {
           return (
             <label key={value} className="cursor-pointer">
               <input type="checkbox" className="peer sr-only" aria-label={label} checked={values.includes(value)} onChange={() => toggle(value)} />
-              <span className="inline-flex items-center rounded-full border border-line bg-white px-3.5 py-1.5 text-[13px] font-medium text-slate-600 transition-colors hover:border-brand/50 peer-checked:border-brand peer-checked:bg-brand peer-checked:text-white peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand">
+              <span className="inline-flex items-center rounded-full border border-line bg-white px-3.5 py-1.5 text-[13px] font-medium text-slate-600 transition-colors hover:border-brand/50 hover:bg-brand-soft/40 peer-checked:border-brand peer-checked:bg-brand-soft peer-checked:font-semibold peer-checked:text-brand-dark peer-checked:before:mr-1 peer-checked:before:content-['✓'] peer-focus-visible:outline peer-focus-visible:outline-2 peer-focus-visible:outline-offset-2 peer-focus-visible:outline-brand">
                 {label}
               </span>
             </label>

@@ -9,7 +9,7 @@ import { EmptyState } from '../ui/Notice.jsx';
 export default function MapArea({ cfg, reference, ...props }) {
   if (cfg.loading) {
     return (
-      <div className="grid h-full place-items-center bg-[#E8EEF6]" role="status">
+      <div className="grid h-full place-items-center bg-map-bg" role="status">
         <div className="flex flex-col items-center gap-3 text-sm font-medium text-muted">
           <MapPinned size={28} className="animate-pulse text-brand" aria-hidden="true" />
           Carregando o mapa…

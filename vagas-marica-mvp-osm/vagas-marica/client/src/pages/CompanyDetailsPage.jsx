@@ -93,7 +93,7 @@ export default function CompanyDetailsPage() {
         </div>
       </section>
 
-      <p className="flex gap-2 rounded-xl border border-amber-200 bg-warning-soft p-3.5 text-[13px] leading-relaxed text-amber-900">
+      <p className="flex gap-2 rounded-xl border border-warning/25 bg-warning-soft p-3.5 text-[13px] leading-relaxed text-warning">
         <Info size={17} className="mt-0.5 shrink-0" aria-hidden="true" />
         {c.isReal
           ? 'Marca real usada apenas como referência. A nota é simulada: não representa a opinião de funcionários nem a reputação verdadeira da empresa, e não há afirmação de unidades ou vagas em Maricá.'

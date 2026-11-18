@@ -28,10 +28,10 @@ export default function Navbar() {
 
   const link = ({ isActive }, small) => `relative flex items-center gap-1.5 whitespace-nowrap rounded-lg px-3 py-2 transition-colors ${
     small ? 'text-[13px]' : 'text-sm font-semibold'
-  } ${isActive ? 'text-brand-dark' : small ? 'text-muted hover:text-ink' : 'text-slate-700 hover:bg-surface hover:text-ink'}`;
+  } ${isActive ? 'text-brand-dark' : small ? 'text-muted hover:text-brand-dark' : 'text-slate-700 hover:bg-brand-soft/70 hover:text-brand-dark'}`;
 
   return (
-    <header className="sticky top-0 z-40 bg-white/90 shadow-[0_1px_0_#E2E8F0] backdrop-blur supports-[backdrop-filter]:bg-white/75">
+    <header className="sticky top-0 z-40 bg-white/90 shadow-[0_1px_0_theme(colors.line)] backdrop-blur supports-[backdrop-filter]:bg-white/75">
       <div className="mx-auto flex h-16 w-full max-w-[1600px] items-center gap-4 px-4 sm:px-6 lg:px-8">
         <Logo />
 
@@ -88,7 +88,7 @@ export default function Navbar() {
                   <li key={to}>
                     <NavLink
                       to={target(to)} end={end} onClick={() => setMenuOpen(false)}
-                      className={({ isActive }) => `flex items-center gap-3 rounded-xl px-3 py-3 text-[15px] font-medium transition-colors ${isActive ? 'bg-brand-soft text-brand-dark' : 'text-slate-700 hover:bg-surface'}`}
+                      className={({ isActive }) => `flex items-center gap-3 rounded-xl px-3 py-3 text-[15px] font-medium transition-colors ${isActive ? 'bg-brand-soft font-semibold text-brand-dark' : 'text-slate-700 hover:bg-brand-soft/60 hover:text-brand-dark'}`}
                     >
                       <Icon size={19} aria-hidden="true" /> {label}
                       {to === '/curriculo' && hasResume && <ResumeDot />}

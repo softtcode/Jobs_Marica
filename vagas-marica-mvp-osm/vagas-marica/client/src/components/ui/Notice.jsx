@@ -1,13 +1,16 @@
-import { AlertTriangle, Info, SearchX } from 'lucide-react';
+import { AlertTriangle, Info, OctagonAlert, SearchX } from 'lucide-react';
 
-const ICONS = { error: AlertTriangle, info: Info, warning: AlertTriangle, empty: SearchX };
+// O vermelho da marca e o de erro são parecidos: por isso cada tom tem ÍCONE próprio
+// (erro = octógono, aviso = triângulo, info = "i") e o texto do título descreve a situação.
+// "Info" é neutro (nunca vermelho), para não parecer um erro.
+const ICONS = { error: OctagonAlert, info: Info, warning: AlertTriangle, empty: SearchX };
 const STYLES = {
-  error: 'border-red-200 bg-danger-soft text-red-900',
-  warning: 'border-amber-200 bg-warning-soft text-amber-900',
+  error: 'border-danger/25 bg-danger-soft text-danger',
+  warning: 'border-warning/25 bg-warning-soft text-warning',
   info: 'border-line bg-white text-slate-700',
   empty: 'border-line bg-white text-slate-700',
 };
-const ICON_STYLES = { error: 'text-danger', warning: 'text-warning', info: 'text-brand', empty: 'text-muted' };
+const ICON_STYLES = { error: 'text-danger', warning: 'text-warning', info: 'text-navy-700', empty: 'text-muted' };
 
 export default function Notice({ tone = 'info', title, children, action }) {
   const Icon = ICONS[tone];
@@ -29,7 +32,7 @@ export default function Notice({ tone = 'info', title, children, action }) {
 export function EmptyState({ icon: Icon = SearchX, title, children, action, tone = 'neutral' }) {
   return (
     <div className="flex flex-col items-center px-6 py-12 text-center" role={tone === 'error' ? 'alert' : 'status'}>
-      <span className={`grid h-14 w-14 place-items-center rounded-2xl ${tone === 'error' ? 'bg-danger-soft text-danger' : 'bg-brand-soft text-brand'}`}>
+      <span className={`grid h-14 w-14 place-items-center rounded-2xl ${tone === 'error' ? 'bg-danger-soft text-danger ring-1 ring-danger/20' : 'bg-slate-100 text-navy-700'}`}>
         <Icon size={26} aria-hidden="true" />
       </span>
       <h3 className="mt-4 text-base font-bold text-ink">{title}</h3>

@@ -22,11 +22,20 @@ export function CompanyAvatar({ name, size = 'md' }) {
   );
 }
 
+/**
+ * Cor da compatibilidade. Alta = verde discreto; intermediária e baixa = neutras.
+ * Nunca vermelho: com a marca em vermelho, uma porcentagem vermelha pareceria erro.
+ * O número está sempre escrito, então a cor é só um reforço.
+ */
+export const matchTone = (score) => (score >= 80 ? 'high' : score >= 60 ? 'mid' : 'low');
+
 /** Selo de compatibilidade (usado nos detalhes). Regras locais; não é probabilidade de contratação. */
 export function MatchScore({ score, size = 'sm' }) {
-  const tone = score >= 80 ? 'bg-success-soft text-success ring-green-200'
-    : score >= 60 ? 'bg-brand-soft text-brand-dark ring-brand/20'
-      : 'bg-slate-100 text-slate-600 ring-slate-200';
+  const tone = {
+    high: 'bg-success-soft text-success ring-success/25',
+    mid: 'bg-white text-ink ring-line',
+    low: 'bg-slate-100 text-slate-600 ring-slate-200',
+  }[matchTone(score)];
   return (
     <span className={`inline-flex items-center gap-1 rounded-full font-bold ring-1 ${tone} ${size === 'lg' ? 'px-3 py-1 text-sm' : 'px-2 py-0.5 text-xs'}`}>
       <Sparkles size={size === 'lg' ? 14 : 12} aria-hidden="true" />
@@ -95,8 +104,10 @@ function JobCard({ job, selected = false, onSelect, compact = false, match = nul
 
       {match && (
         <p className="mt-2.5 flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-slate-600">
-          <Sparkles size={13} className="shrink-0 text-brand" aria-hidden="true" />
-          <span><strong className="font-semibold text-ink">{match.score}%</strong> de compatibilidade estimada</span>
+          <Sparkles size={13} className={`shrink-0 ${matchTone(match.score) === 'high' ? 'text-success' : 'text-slate-500'}`} aria-hidden="true" />
+          <span>
+            <strong className={`font-semibold ${matchTone(match.score) === 'high' ? 'text-success' : 'text-ink'}`}>{match.score}%</strong> de compatibilidade estimada
+          </span>
           {!compact && match.reasons[0] && <span className="text-muted">· {match.reasons[0].text}</span>}
           {unmet > 0 && (
             <span className="inline-flex basis-full items-center gap-1 font-medium text-warning">

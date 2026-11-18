@@ -346,7 +346,7 @@ export default function ResumePage() {
             </p>
 
             {mode === 'rapido' ? (
-              <button type="button" onClick={onFind} className="btn btn-lg btn-primary mt-5 w-full"><Sparkles size={18} aria-hidden="true" /> Encontrar vagas para mim</button>
+              <button type="button" onClick={onFind} className="btn btn-lg btn-primary mt-5 h-auto min-h-12 w-full py-2.5 text-center leading-snug"><Sparkles size={18} className="shrink-0" aria-hidden="true" /> Encontrar vagas para mim</button>
             ) : (
               <button type="submit" className="btn btn-lg btn-primary mt-5 w-full"><Save size={18} aria-hidden="true" /> Salvar currículo</button>
             )}
@@ -376,8 +376,8 @@ export default function ResumePage() {
             <p className="flex items-center gap-2 font-semibold text-ink"><BookOpen size={16} className="text-brand" aria-hidden="true" /> Como é usado</p>
             <p>Apenas para calcular, neste navegador, a compatibilidade com as vagas. Nenhum dado pessoal sensível é usado.</p>
             <button type="button" onClick={() => setConfirmDelete(true)} disabled={!resume && !dirty}
-              className="btn btn-sm mt-1 w-full border border-red-200 bg-white text-danger hover:bg-danger-soft">
-              <Trash2 size={15} aria-hidden="true" /> Apagar currículo e dados locais
+              className="btn btn-sm mt-1 h-auto min-h-9 w-full border border-danger/30 bg-white py-2 text-center leading-snug text-danger hover:bg-danger-soft">
+              <Trash2 size={15} className="shrink-0" aria-hidden="true" /> Apagar currículo e dados locais
             </button>
           </div>
         </aside>
@@ -397,7 +397,7 @@ export default function ResumePage() {
         footer={(
           <div className="flex flex-col-reverse gap-2 sm:flex-row sm:justify-end">
             <button type="button" onClick={() => setConfirmDelete(false)} className="btn btn-md btn-outline">Cancelar</button>
-            <button type="button" onClick={onDelete} className="btn btn-md bg-danger text-white hover:bg-red-800"><Trash2 size={16} aria-hidden="true" /> Apagar definitivamente</button>
+            <button type="button" onClick={onDelete} className="btn btn-md bg-danger text-white hover:bg-danger/90"><Trash2 size={16} aria-hidden="true" /> Apagar definitivamente</button>
           </div>
         )}
       >
